@@ -26,13 +26,8 @@ document.addEventListener('click', (e) => {
         change()
     }
 })
-
-
-
-let result = document.querySelector('.coins');
-let i = [0];
 if (boy.style.top == coin.style.top) {
     change();
-    i.push('1')
-    result.innerHTML = `Your score ${i.length}`
+
+
 }

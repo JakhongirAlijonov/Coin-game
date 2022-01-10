@@ -48,14 +48,7 @@ body {
     height: 80px;
     display: inline-block;
     transition: 3s ease;
-}
-
-.coins {
-    position: absolute;
-    top: 0;
-    left: 15%;
-    font-size: 30px;
-    font-weight: 600;
+    z-index: 5;
 }
 
 .boy {
@@ -65,4 +58,5 @@ body {
     width: 100px;
     display: inline-block;
     transition: 2.5s ease;
+    z-index: 10;
 }
